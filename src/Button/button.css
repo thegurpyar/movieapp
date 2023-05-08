@@ -1,0 +1,11 @@
+.btn{
+    position: relative;
+    left: 65%;
+    padding: 3px;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 3.0vh;
+    font-size: 2.3vh;
+    height: auto;
+    width: auto;
+
+}

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Lato&family=Nunito&family=Source+Sans+Pro:wght@300&display=swap');
+
+.singlemovie{
+    padding-top: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+
+
+.singlemovie h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 3.9vh;
+    
+}
+
+.singlemovie p{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+}
+
+.singlemovie h6{
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+.posterimg{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 10px;
+    width:60%;
+    height: 100%;
+}
+
+
+.trailer {
+    position: absolute;
+
+}
+
+.trailer >div{
+    z-index: 1;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 40vw !important;
+    height: 50vh !important;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.trailer-button{
+    margin: 2px;
+    align-items: baseline;
+    font-size: 5.9vh;
+    position: sticky;
+
+}
+
+.trailer-button:hover{
+    color: #6B728E;
+}
+
+@media only screen and (max-width: 720px) {
+    .trailer >div {
+      width: 90vw !important;
+    }
+  }
